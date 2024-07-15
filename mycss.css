@@ -1,0 +1,51 @@
+.laps {
+    top:0px;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    margin-top: 20px;
+    max-height: 140px;
+    overflow-y: auto;
+}
+
+.laps div {
+    margin: 5px 5px;
+    padding: 10px;
+    background: #eee;
+    border-radius: 5px;
+} 
+
+.c1{
+    height: 450px;
+    font-size: large;
+    outline-color: black;
+    outline-style: double;
+    border-radius: 10px;
+    width: 50%; /* Set the width of the div */
+      text-align: center; /* Center the text inside the div */
+      padding: 20px; /* Add some padding */
+      color: rgb(255, 255, 255);
+      position: absolute; /* Position absolute relative to the nearest positioned ancestor */
+      top: 50%; /* Move down 50% from the top */
+      left: 50%; /* Move right 50% from the left */
+      transform: translate(-50%, -50%); /* Offset the div to truly center it */
+      backdrop-filter: blur(7px);
+}
+body{
+    background-image: url("https://images.pexels.com/photos/100733/pexels-photo-100733.jpeg?cs=srgb&dl=pexels-monoar-rahman-22660-100733.jpg&fm=jpg");
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#display{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+button{
+    border-radius: 6px;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
